@@ -3,6 +3,7 @@ import { InputControl, InputPrefix, InputRoot } from "@/components/Input";
 import * as FileInput from "@/components/Form/FileInput";
 import { Mail } from "lucide-react";
 import { Select } from "@/components/Form/Select";
+import { SelectItem } from "@/components/Form/Select/SelectItem";
 
 export default function Home() {
   return (
@@ -113,8 +114,8 @@ export default function Home() {
             </label>
 
             <Select placeholder="Select a country...">
-              <Select.Item value="br" text="Brazil" />
-              <Select.Item value="us" text="United States" />
+              <SelectItem value="br" text="Brazil" />
+              <SelectItem value="us" text="United States" />
             </Select>
           </div>
 
