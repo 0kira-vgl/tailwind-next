@@ -6,6 +6,7 @@ import { Select } from "@/components/Form/Select";
 import { SelectItem } from "@/components/Form/Select/SelectItem";
 import { Textarea } from "@/components/Form/Textarea";
 import { Button } from "@/components/Button";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 export default function Home() {
   return (
