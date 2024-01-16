@@ -19,6 +19,7 @@ import { Profile } from "./Profile";
 import { InputControl, InputPrefix, InputRoot } from "../Input";
 import * as Collapsible from "@radix-ui/react-collapsible";
 import { Button } from "../Button";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 export function Sidebar() {
   return (
